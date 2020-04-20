@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FMS</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">FMS</string>
+
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Cancel">Cancel</string>
+    <string name="textmsg">Are you sure?</string>
+    <string name="gps_info" />
+</resources>

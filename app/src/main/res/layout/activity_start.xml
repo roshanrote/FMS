@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#0F5085"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/custom_border"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="Journey Information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Actual Begin KM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/begin_km"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/start"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+
+                    android:background="@drawable/custom_button"
+                    android:text="start"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+              >
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+
+                    android:background="@drawable/custom_button"
+                    android:text="BACK"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+
+                    />
+            </LinearLayout>
+
+           <!-- <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp">
+
+                <Button
+                    android:id="@+id/cancel1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@drawable/custom_button"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="CANCEL"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+
+                    />
+            </LinearLayout>-->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

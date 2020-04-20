@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/cardviewrelative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Passenger:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/passenger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/notiusername" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Book Date:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/bookdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/notiusername" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Booked By:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/bookedby"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/DateTime"
+                        android:layout_alignStart="@+id/DateTime"
+                        android:layout_below="@+id/DateTime" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Vehicle Type/Number:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/vehicletype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/DateTime"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/DateTime"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Journey Start Date:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/startdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/DateTime"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/DateTime"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Journey End Date:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/enddate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/DateTime"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/DateTime"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Destination Code:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/destinationcode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/DateTime"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/DateTime"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Proposed End Time:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/endtime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/DateTime"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/DateTime"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Booking reference:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/bookRef"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentTop="true"
+
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_weight="0.30"
+                        android:text="Paused:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_weight="0.70"
+                        android:id="@+id/status"
+                        android:text="NO"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

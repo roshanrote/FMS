@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pauseed"
+        android:orderInCategory="100"
+        android:title="paused"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/unpaused"
+        android:orderInCategory="100"
+        android:title="unpaused"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/none"
+        android:orderInCategory="100"
+        android:title="None"
+        app:showAsAction="never" />
+</menu>

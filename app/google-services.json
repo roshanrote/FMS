@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "809929324207",
+    "firebase_url": "https://fmsapp-7a0fe.firebaseio.com",
+    "project_id": "fmsapp-7a0fe",
+    "storage_bucket": "fmsapp-7a0fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809929324207:android:5c2b23ce1a16499d",
+        "android_client_info": {
+          "package_name": "com.acquiscent.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809929324207-e8s79am7tduqhgsuqdfppm7l5126kn9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLd1z986mr9MRd5YBtSgmh5ZKVMfGlqjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809929324207-e8s79am7tduqhgsuqdfppm7l5126kn9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
